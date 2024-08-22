@@ -57,7 +57,7 @@ public class CodeGenerator {
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
         gc.setOutputDir(outputDir);
-        gc.setAuthor("RubinChu");
+        gc.setAuthor("zllcy");
         gc.setOpen(false);
         gc.setSwagger2(false);
         gc.setMapperName("%sMapper");

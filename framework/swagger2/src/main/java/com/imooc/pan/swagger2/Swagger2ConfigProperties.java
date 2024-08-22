@@ -25,11 +25,11 @@ public class Swagger2ConfigProperties {
 
     private String termsOfServiceUrl = "http://127.0.0.1:${server.port}";
 
-    private String contactName = "rubin";
+    private String contactName = "zllcy";
 
-    private String contactUrl = "https://blog.rubinchu.com";
+    private String contactUrl = "https://github.com/zllcy";
 
-    private String contactEmail = "rubinchu@126.com";
+    private String contactEmail = "2745459573@qq.com";
 
     private String version = "1.0";
 

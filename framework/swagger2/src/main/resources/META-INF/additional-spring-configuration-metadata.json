@@ -40,19 +40,19 @@
       "name": "swagger2.contact-name",
       "type": "java.lang.String",
       "description": "联系人名称",
-      "defaultValue": "rubin"
+      "defaultValue": "zllcy"
     },
     {
       "name": "swagger2.contact-url",
       "type": "java.lang.String",
       "description": "联系人地址",
-      "defaultValue": "https://blog.rubinchu.com"
+      "defaultValue": "https://github.com/zllcy"
     },
     {
       "name": "swagger2.contact-email",
       "type": "java.lang.String",
       "description": "联系人邮箱",
-      "defaultValue": "rubinchu@126.com"
+      "defaultValue": "2745459573@qq.com"
     },
     {
       "name": "swagger2.version",

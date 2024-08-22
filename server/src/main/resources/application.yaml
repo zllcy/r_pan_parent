@@ -1,7 +1,7 @@
 spring:
   redis:
     database: 1
-    host: 127.0.0.1
+    host: 192.168.8.8
   application:
     name: r-pan-server
   output:
@@ -16,8 +16,8 @@ spring:
       max-request-size: 3072MB
   datasource:
     username: root
-    password: 12345678
-    url: jdbc:mysql://127.0.0.1:3306/r_pan?characterEncoding=utf8&serverTimeZone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    password: 200026
+    url: jdbc:mysql://192.168.8.8:3306/r_pan?characterEncoding=utf8&serverTimeZone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis-plus:
@@ -40,9 +40,9 @@ swagger2:
   title: r-pan-server docs
   description: r-pan-server docs
   terms-of-service-url: http://127.0.0.1:${server.port}
-  contact-name: rubin
-  contact-url: https://blog.rubinchu.com
-  contact-email: rubinchu@126.com
+  contact-name: zllcy
+  contact-url: https://github.com/zllcy
+  contact-email: 2745459573@qq.com
   version: 1.0
 
 logging:
