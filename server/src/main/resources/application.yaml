@@ -66,3 +66,15 @@ logging:
 #            tracker-list:
 #              - 39.98.37.93:22122
 #            group: group1
+
+com:
+  imooc:
+    pan:
+      bloom:
+        filter:
+          local:
+            items:
+              - name: SHARE_SIMPLE_DETAIL
+                funnel-type-name: LONG
+                expected-insertions: 10000000
+                fpp: 0.01
